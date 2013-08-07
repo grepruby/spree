@@ -1,6 +1,7 @@
 module Spree
   class CountriesController < BaseController
-    ssl_allowed :index
+    #ssl_allowed :index
+    ssl_required :index
 
     respond_to :js
 
