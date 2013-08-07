@@ -1,6 +1,7 @@
 module Spree
   class StatesController < Spree::StoreController
-    ssl_allowed :index
+    #ssl_allowed :index
+    ssl_required :index
 
     respond_to :js
 
