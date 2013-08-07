@@ -19,7 +19,7 @@ module Spree
 
       helper Spree::Api::ApiHelpers
 
-      ssl_allowed
+      #ssl_allowed
 
       def set_jsonp_format
         if params[:callback] && request.get?
